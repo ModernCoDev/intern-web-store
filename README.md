@@ -3,7 +3,7 @@ Welcome to the Study Fullstack Shop Project, an exciting opportunity for interns
 
 This project enforces the use of pull requests for every code push, promoting collaborative code review, ensuring high-quality contributions, and fostering effective teamwork. By requiring pull requests, it streamlines the code integration process and enhances transparency and accountability in version control.
 
-#Git Workflow:
+# Git Workflow:
 
 1. Create new branch from main:
 
