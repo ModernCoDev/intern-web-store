@@ -40,6 +40,6 @@ A monorepo is a software development approach where multiple projects or compone
 
 This project uses [NX](https://nx.dev/getting-started/why-nx) to simplify and make it more efficient to work on monorepo.
 
-#Microfrontends
+# Microfrontends
 
 Microfrontends is an architectural pattern where a frontend application is composed of loosely coupled, independently deployable, and individually developed components. Each component represents a small, self-contained frontend application that can be developed, tested, and deployed independently. This approach allows teams to work autonomously, enables technology flexibility, and facilitates scaling and maintenance of complex frontend systems.
