@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "nrwl.angular-console",
+    "esbenp.prettier-vscode",
+    "aaron-bond.better-comments",
+    "johnpapa.angular2",
+    "angular.ng-template",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "firsttris.vscode-jest-runner"
+  ]
+}

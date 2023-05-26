@@ -1,4 +1,5 @@
 # intern-web-store
+
 Welcome to the Study Fullstack Shop Project, an exciting opportunity for interns to gain hands-on experience in developing a comprehensive e-commerce application using cutting-edge technologies. This repository serves as a central hub for all resources, documentation, and code related to the project.
 
 This project enforces the use of pull requests for every code push, promoting collaborative code review, ensuring high-quality contributions, and fostering effective teamwork. By requiring pull requests, it streamlines the code integration process and enhances transparency and accountability in version control.
@@ -14,6 +15,7 @@ git checkout main
 ```Shell
 git branch -b new-branch
 ```
+
 2. Make changes to the codebase then stage and commit
 
 ```Shell
@@ -23,16 +25,29 @@ git add .
 ```Shell
 git commit -m "Your commit message"
 ```
-3. Push the changes to the remote repository:
+
+3. Pull latest changes from remote repository and main branch:
+
+```Shell
+git pull
+```
+
+```Shell
+git pull origin main
+```
+
+4. Resolve conflicts if any.
+
+5. Push the changes to the remote repository:
 
 ```Shell
 git push origin new-branch
 ```
 
-4. Visit the repository on GitHub and navigate to the branch you just pushed.
-5. Click on the "New pull request" button.
-6. Review the changes in the pull request, provide any necessary context, and select the appropriate reviewers.
-7. Click on the "Create pull request" button to submit the pull request.
+6. Visit the repository on GitHub and navigate to the branch you just pushed.
+7. Click on the "New pull request" button.
+8. Review the changes in the pull request, provide any necessary context, and select the appropriate reviewers.
+9. Click on the "Create pull request" button to submit the pull request.
 
 # Monorepo
 
@@ -43,3 +58,10 @@ This project uses [NX](https://nx.dev/getting-started/why-nx) to simplify and ma
 # Microfrontends
 
 Microfrontends is an architectural pattern where a frontend application is composed of loosely coupled, independently deployable, and individually developed components. Each component represents a small, self-contained frontend application that can be developed, tested, and deployed independently. This approach allows teams to work autonomously, enables technology flexibility, and facilitates scaling and maintenance of complex frontend systems.
+
+This project uses [NX Micro Frontend Architecture](https://nx.dev/more-concepts/micro-frontend-architecture)
+
+# Recommended Tools
+
+- Visual Studio Code
+- NVM Node Version Manager or just Node 18.16.0 LTS
